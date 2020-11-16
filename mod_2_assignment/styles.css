@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.row {
+	width: 100%;
+}
+
+h1 {
+	font-family: Helvatica;
+	color: rgb(0,0,0);
+	text-align: center;
+}
+
+body {
+	  background-color: #ffff99;
+	  margin-bottom: 30px;
+	  font-family: 'lato',sans-serif;
+
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+	width: 100%;
+
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	 
+
+	
+}
+
+section{
+	border: 1px solid black;
+	background-color: #99ffcc;
+	width: 100%;
+	height: 200px;
+	font-family: Helvetica;
+	color:black;
+	position:relative;
+	overflow:auto;
+	box-sizing:border-box;
+}
+
+#chicken {
+         border: 1px solid black;
+         text-align: center;
+         width: 30%;
+         margin-left: 70%;
+         font-family: Helvatica;
+         font-weight: bold;
+         font-size: 125%;
+         margin-bottom: 0;
+         margin-top: 0;
+         padding: 5px;
+         background-color: #ff0000;
+}
+
+#beef {
+	   border: 1px solid black;
+	   text-align: center;
+	   width: 30%;
+       margin-left: 70%;
+       font-family: helvatica;
+       font-weight: bold;
+       font-size: 125%;
+       margin-bottom: 0;
+       margin-top: 0;
+       padding: 5px;
+       background-color: #ff00ff;
+}    
+
+#sushi {
+	    border: 1px solid black;
+	    text-align: center;
+	    width: 30%;
+        margin-left: 70%;
+        font-family:helvatica;
+        font-weight: bold;
+        font-size: 125%;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 5px;
+        background-color: #ffffff;
+}
+
+
+/*desktop view */
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float:left;
+
+	}
+  .col-lg-4 {
+    width: 33%;
+  }
+  
+  
+}
+
+/*tablet view*/
+ @media (min-width: 768px)  and (max-width: 991px) {
+ 	.col-md-4, .col-md-6 {
+ 		float: left;
+ 	}
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+/*mobile view*/
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+	}
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
